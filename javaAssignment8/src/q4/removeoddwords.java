@@ -15,7 +15,6 @@ public class removeoddwords {
         students.add("Ravi");
         students.add("Sai");
         students.removeIf(n ->( n.length())%2!=0);
-  
         System.out.println("Students name with odd length ");
         for (String str : students) {
             System.out.println(str);
