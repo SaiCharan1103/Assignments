@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+           
+           <bean id="question" class="q2.Question">  
+<constructor-arg index="0" value="1"/>  
+<constructor-arg index="1" value="Name any 3 design pattern ?"></constructor-arg>  
+<constructor-arg index="2">  
+<list>  
+ <value>Behavioral</value>
+ <value>Creational</value>
+ <value>Structural</value>
+</list>  
+</constructor-arg> 
+
+<constructor-arg index="3">  
+<set>  
+ <value>Behavioral</value>
+ <value>Creational</value>
+  <value>Structural</value>
+</set>  
+</constructor-arg> 
+
+<constructor-arg index="4">  
+<map>  
+<entry key="1"  value="Behavioral"></entry>  
+<entry key="2" value="Creational"></entry>
+<entry key="3" value="Structural"></entry>  
+</map>  
+</constructor-arg>  
+ 
+</bean>   
+           
+</beans>
