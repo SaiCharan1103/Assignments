@@ -12,7 +12,7 @@ public class minmaxfinder {
 		arr[1] = a[a.length-1];
 		
 		return arr;
-		   }
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
           minmaxfinder obj = new minmaxfinder();
@@ -21,5 +21,4 @@ public class minmaxfinder {
          
          System.out.println(a[1]);
 	}
-
 }
